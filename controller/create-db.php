@@ -14,8 +14,11 @@ if ($connection->connect_error) {
     $query = $connection->query("CREATE DATABASE $database");
     
     if($query) {
-        echo"Successfully created database" .$database;
+        echo" Successfully created database: " .$database;
     }
+ }
+ else {
+     echo "Database already exists";
  }
  
 
