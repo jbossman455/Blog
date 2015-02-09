@@ -1,2 +1,2 @@
 <?php
-   $path= "/JasonB-blog/";
+   $path= "/byrdj-blog/";
